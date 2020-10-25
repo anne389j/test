@@ -17,12 +17,12 @@
 3. Open the .tex document using your favorite text editor, and eligible spot.
 4. Compile the .tex document and check that you are satisfied with the changes in the created pdf file:
 	```git
-	pdflatex tictactoe.tex
+	pdflatex TicTacToe.tex
 	```
 5. Compiling the latex document created 5 new files, which git does not know exists, we need to make git know that the pdf file exists. Do the following command to check which files has been changed and which are "untracked"
 6. We only want to add the pdf file to git, the rest can remain untracked:
 	```git
-	git add tictactoe.pdf
+	git add TicTacToe.pdf
 	```
 7. Now we want to prepare sending our changes to the shared git repository, we do this using the commit command:
 	```git
